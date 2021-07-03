@@ -7,9 +7,9 @@
 module.exports = {
   /* Your site config here */
   plugins: [
-    `gatsby-plugin-sharp`,
-    `gatsby-transformer-sharp`,
-    "gatsby-transformer-remark",
+    `gatsby-transformer-remark`,
+    "gatsby-transformer-sharp",
+    "gatsby-plugin-sharp",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -28,7 +28,7 @@ module.exports = {
   siteMetadata: {
     title: "Web Warrior",
     description: "web dev portfolio",
-    copyright: "Copyright 2021",
-    contact: "rafa.dyrektorek@gmail.com",
+    copyright: "This website is copyright 2021 Web Warrior",
+    contact: "me@thewebwarrioruk.co.uk",
   },
 }

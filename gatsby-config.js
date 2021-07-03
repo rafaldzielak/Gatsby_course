@@ -20,5 +20,6 @@ module.exports = {
     title: "Web Warrior",
     description: "web dev portfolio",
     copyright: "Copyright 2021",
+    contact: "rafa.dyrektorek@gmail.com",
   },
 }
